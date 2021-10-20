@@ -1,16 +1,25 @@
-### Hi there 👋
+phh95/README.md
+Hi there wave
+hourglass_flowing_sand Year progress { ████████████████████████▁▁▁▁▁▁ } 80.14 %
 
-<!--
-**l13144/l13144** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+alarm_clock Updated on Wed, 20 Oct 2021 12:09:58 GMT
 
-Here are some ideas to get you started:
+My GitHub Contributions
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+About me
+Angola peng's GitHub stats Angola peng's Most used languages
+
+I'm angola, a new-media editor.
+
+telescope I’m currently striving for a better life in Guangzhou.
+thinking My blog point_right https://penghh.fun/
+speech_balloon Ask me some questions about Effeciency Tools point_right https://wx.zsxq.com/dweb2/index/group/88512424255582
+mailbox My E-mail: 602646761#qq.com
+wrench My Power Tools:
+
+
+VS Code
+Visual Studio Code
+MWeb
+Git
