@@ -1,25 +1,56 @@
-phh95/README.md
-Hi there wave
-hourglass_flowing_sand Year progress { ████████████████████████▁▁▁▁▁▁ } 80.14 %
+### 🧑‍🤝‍🧑 People plugin
 
-alarm_clock Updated on Wed, 20 Oct 2021 12:09:58 GMT
+The *people* plugin can display people you're following or sponsoring, and also users who're following or sponsoring you.
+In repository mode, it's possible to display sponsors, stargazers, watchers.
 
-My GitHub Contributions
+<table>
+  <td align="center">
+    <img src="https://github.com/lowlighter/lowlighter/blob/master/metrics.plugin.people.followers.svg">
+    <details><summary>Followed people version</summary>
+      <img src="https://github.com/lowlighter/lowlighter/blob/master/metrics.plugin.people.following.svg">
+    </details>
+    <details><summary>Special thanks version</summary>
+      <img src="https://github.com/lowlighter/lowlighter/blob/master/metrics.plugin.people.thanks.svg">
+    </details>
+    <details><summary>Repository template version</summary>
+      <img src="https://github.com/lowlighter/lowlighter/blob/master/metrics.plugin.people.repository.svg">
+    </details>
+    <img width="900" height="1" alt="">
+  </td>
+</table>
+
+The following types are supported:
+
+| Type            | Alias                                | User metrics       | Repository metrics |
+| --------------- | ------------------------------------ | :----------------: | :----------------: |
+| `followers`     |                                      | ✔️                 | ❌                |
+| `following`     | `followed`                           | ✔️                 | ❌                |
+| `sponsoring`    | `sponsored`, `sponsorshipsAsSponsor` | ✔️                 | ❌                |
+| `sponsors`      | `sponsorshipsAsMaintainer`           | ✔️                 | ✔️                |
+| `contributors`  |                                      | ❌                 | ✔️                |
+| `stargazers`    |                                      | ❌                 | ✔️                |
+| `watchers`      |                                      | ❌                 | ✔️                |
+| `thanks`        |                                      | ✔️                 | ✔️                |
+| `members`       |                                      | ✔️ (organization)  | ❌                |
 
 
-About me
-Angola peng's GitHub stats Angola peng's Most used languages
+Sections will be ordered the same as specified in `plugin_people_types`.
+`sponsors` for repositories will output the same as the owner's sponsors.
 
-I'm angola, a new-media editor.
+#### ℹ️ Examples workflows
 
-telescope I’m currently striving for a better life in Guangzhou.
-thinking My blog point_right https://penghh.fun/
-speech_balloon Ask me some questions about Effeciency Tools point_right https://wx.zsxq.com/dweb2/index/group/88512424255582
-mailbox My E-mail: 602646761#qq.com
-wrench My Power Tools:
+[➡️ Available options for this plugin](metadata.yml)
 
-
-VS Code
-Visual Studio Code
-MWeb
-Git
+```yaml
+- uses: lowlighter/metrics@latest
+  with:
+    # ... other options
+    plugin_people: yes
+    plugin_people_types: followers, thanks     # Display followers and "thanks" sections
+    plugin_people_limit: 28                    # Limit to 28 entries per section
+    plugin_people_size: 28                     # Size in pixels of displayed avatars
+    plugin_people_identicons: no               # Use avatars (do not use identicons)
+    plugin_people_thanks: lowlighter, octocat  # Users that will be displayed in "thanks" section
+    plugin_people_sponsors_custom: octocat     # Users that will be displayed additionally in "sponsors" section
+    plugin_people_shuffle: yes                 # Shuffle for varied output
+```
