@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Liyouchen</h1>
 <h3 align="center">一个安全路上的打工仔！</h3>
 
-- 📝 I regularly write articles on [http://www.l13144.club:10003/](http://www.l13144.club:10003/)
+- 📝 I regularly write articles on [http://lizong.top](http://lizong.top)
 
 - 📫 How to reach me **l13144@qq.com**
 
